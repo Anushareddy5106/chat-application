@@ -1,7 +1,7 @@
 /* common css */
 
 button {
-    border: none;
+    /* border: none; */
     outline: none;
     font-family: Arial;
     font-weight: bold;
@@ -48,6 +48,7 @@ button {
     width: 100%;
     justify-content: flex-end;
 }
+
 
 .sign-out button {
     margin: 10px 0;

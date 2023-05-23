@@ -35,8 +35,13 @@ const Auth = (props) => {
   };
   return (
     <div className="auth">
-      <p> Chat with your friends and family here.Login to begin </p>{" "}
-      <button onClick={signInwithGoogle}> Sign in with Google </button>{" "}
+      <div className="img-icon"></div>
+      <div className="auth-text">
+        <p className="heading">Welcome to Chat-App</p>
+        <p> Chat with your friends and family here. </p>
+        <p>Login to begin</p>
+        <button onClick={signInwithGoogle}> Sign in with Google </button>{" "}
+      </div>
     </div>
   );
 };

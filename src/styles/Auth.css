@@ -1,11 +1,24 @@
 .auth {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     font-family: Arial;
     font-size: 1rem;
+    margin: 100px;
 }
-
+.heading{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.img-icon{
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-image: url("../components/icon/msg.png");
+    background-size: cover;
+    background-position: center;
+}
 button {
     border: 1px solid #3b5998;
     border-radius: 5px;
@@ -14,6 +27,6 @@ button {
     font-size: 1rem;
     font-weight: bold;
     color: #3b5998;
-    background: white;
+    background: rgb(255, 255, 255);
     cursor: pointer;
 }
